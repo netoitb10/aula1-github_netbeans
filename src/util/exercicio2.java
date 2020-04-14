@@ -63,35 +63,7 @@ public class exercicio2 {
                 
             }
             
-        }
-        
-        for (int i = 0; i < linha; i++) {
-            for (int j = 0; j < coluna; j++) {
-                
-                if(ocorrencia == matriz[i][j]){
-                    
-                    if(i > 0){//UP
-                        System.out.printf("     %d%n",matriz[i-1][j]);
-                    }             
-                    if(j > 0){//Left
-                        System.out.printf("%d",matriz[i][j-1]);
-                    }
-                    
-                        System.out.printf("         %d",matriz[i][j]);
-                    
-                    if(j < matriz[i].length-1) {//Right
-                        System.out.printf("          %d%n",matriz[i][j+1]);
-                    }                    
-                    if(i < matriz.length-1){//Down
-                        System.out.printf("     %d%n",matriz[i+1][j]);
-                    }
-                    System.out.println("");                   
-                }
-                
-            }
-            
-        }
-        
+        }      
         
         sc.close();
     }
